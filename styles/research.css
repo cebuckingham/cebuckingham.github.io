@@ -21,13 +21,12 @@ body {
 	max-width: 100%;
 }
 
-h1, h2, h4 {
+h0, h1, h2, h3 {
 	font-style: normal;
 	font-weight: 600;
 	color: #CC0000;
 	font-family: source-sans-pro, sans-serif;
 }
-
 h1 {
 	color: #FFFFFF;
 	font-size: 36px;
@@ -38,21 +37,14 @@ h1 {
 	background-color: #003366;
 }
 h2 {
+	font-size: 24px;
 	margin-top: 0.5em;
+	color: #000000;
 }
 
 h3 {
-	color: #000000;
 	margin-top: 0.5em;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-family: source-sans-pro, sans-serif;
-	font-size: 20px;
-}
-
-h4 {
-	color: #000000;
-	margin-top: 0.5em;
+	color: #FFFFFF;
 }
 
 #main {
@@ -64,57 +56,35 @@ h4 {
 }
 
 #sidebar {
+	font-size: 14px;
 	width: 23%;
 	margin-left: 2%;
+	margin-right: 0%;
 	float: left;
-	font-size: 14px;
+	text-align: justify;
 	font-family: source-sans-pro, sans-serif;
-}
-
-#horizontalline {
-	width: 96%;
-	margin-left: 2%;
-	float: left;
 }
 
 #sidebar2 {
 	width: 15%;
-	margin-left: 2%;
+	margin-left: 4%;
 	float: left;
-	font-family: source-sans-pro, sans-serif;
-}
-
-#mainindent1 {
-	width: 3%;
-	margin-left: 2%;
-	float: left;
-	clear: left;
-	font-family: source-sans-pro, sans-serif;
-}
-
-#mainindent2 {
-	width: 95%;
-	margin-left: 2%;
-	float: left;
-	clear: left;
-	text-align: justify;
 	font-family: source-sans-pro, sans-serif;
 }
 
 figure {
 	display: block;
-	width: 250px;
+	width: 420px;
 	text-align: left;
 }
 figure img {
 	padding: 6px;
-	text-align: left;
 }
 
 figcaption {
 	font-size: 0.875em;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	display: block;
 	margin-top: 0.5em;
 }
@@ -149,7 +119,6 @@ a:link {
 }
 a:visited {
 	color: #0365C0;
-
 }
 a:hover, a:active, a:focus {
 	color: #7F3300;

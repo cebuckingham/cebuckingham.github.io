@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Research - Christian E. Buckingham</title>
+<link href="styles/research_simple.css" rel="stylesheet" type="text/css" />
+<script src="//use.edgefonts.net/source-sans-pro.js"></script>
+<script src="//use.edgefonts.net/allura.js"></script>
+<script src="//use.edgefonts.net/source-sans-pro;lato.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
+"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="top">
+    <h1>Christian E. Buckingham</h1>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" class="thispage">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="other.html">Other</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="hero"><img src="images/stormyweather-banner.png" /></div>
+  <article id="main"><br />
+  </article>
+
+  <article id="mainindent1">
+  </article>
+  <aside id="sidebar"><br />
+  <p><img src="images/airborne_panel.png" width="225" height="141" /></p>
+  <p>The launch of an aerial observing system (AOS) from the foredeck of a research vessel.</p>
+  </aside>
+  <article id="main"><br />
+  <h3>Ocean remote sensing</h3>
+  <p>Although described here as a research topic, this is really an area under development. So much of observational oceanography is &quot;traditional&quot;. That is, one goes out on ships and measures temperature, salinity and pressure in the ocean. This is essential but a lot of information can be gleaned from remote sensing imagery. Given my engineering background, I am trying hard to supplement ship-based measurements of submesoscale phenomena  with aerial measurements of the same. These phenomena have a tremendous impact on dispersion of surfactants and an aerial observing system (AOS) such as this would be useful for emergency response situations. This work stemmed from a research project in which <a href="papers/Buckingham_etal_2017.pdf" target="new">infrared imagery was used in conjunction with <em>in situ</em> measurements</a> to diagnose observations of a submesoscale frontal instability. Had a clear-sky  image not been available from satellite, we would not have  observed the front in this manner.</p>
+  </article>
+
+  <article id="mainindent1">
+  </article>
+  <aside id="sidebar">
+      <p><a href="papers/Buckingham_etal_2019.pdf"><img src="images/osbl_turbulence.png" width="225" height="228" /></a></p>
+      <p>Surface and submesoscale processes in the ocean surface boundary layer.</p>
+      <!-- <p>Submesoscale baroclinic instability deduced from both a hydrographic survey and SST.</p> -->
+  </aside>
+  <article id="main"><br />
+      <h3>Ocean surface boundary layer turbulence</h3>
+      <p>An area of research that continues to be investigated is what controls turbulence in the ocean surface boundary layer (OSBL).
+      Recent research has suggested that submesoscale processes may generate turbulence in the upper oceans. Our research
+      has shown that (at least at 50-m depth in the eastern North Atlantic) that surface-forced turbulence (i.e. due to winds, waves, buoyancy fluxes) are an
+      order of magnitude larger than submesoscale-forced turbulence. This being said, we also found that the energy dissipated by symmetric instability is
+      non-negligible, perhaps approaching values of 10% of the wind-work into the oceans. The conclusion is that surface processes dominate vertical
+      turbulent energy budgets but that submesoscale processes are important for horizontal energy budgets, having a potentially-profound effect upon large-scale ocean circulation.</p>
+      <p>This work is summarized <a href="papers/Buckingham_etal_2019.pdf">here</a>.</p>
+  </article>
+
+  <article id="mainindent1">
+  </article>
+  <aside id="sidebar">
+      <p><a href="papers/Buckingham_etal_2014.pdf"><img src="images/mesoscalejets_panel.png" width="225" height="228" /></a></p>
+      <p>Mesoscale eddies and jets in time-averaged microwave (a) SST and (b) SSH.</p>
+  </aside>
+  <article id="main"><br />
+      <h3>Geostrophic turbulence: mesoscale eddies and  jets in the  oceans</h3>
+      <p>My dissertation research centred around the use of satellite  measurements to investigate whether or not jets exist in the oceans. Often referred to as <em>striations</em> or <em>bands</em>, these jet-like features are only observed in time averaged fields, such as sea surface height (SSH) and sea surface temperature (SST) shown to the left. They are ubiquitous in the global ocean, are associated with eastward- and westward-flowing currents, and have magnitudes comparable or smaller than the mesoscale eddy field. Our research has focused on the detection and discrimination of jets from the surrounding mesoscale eddies, where we find much of this energy is attributed to the mesoscale eddy field.</p> This work is summarized in two papers, one pertaining to <a href="papers/Buckingham_Cornillon_2013.pdf">SSH</a> and the other <a href="papers/Buckingham_etal_2014.pdf">SST</a>.
+      <p>It is possible that jets similar to those on Jupiter exist in the global oceans. Their existence is predicted from  theory but they remain elusive in the oceans. One reason may be energy loss due to <a href="http://onlinelibrary.wiley.com/doi/10.1002/2017JC012910/full">baroclinic instabilities</a> that occurs on the periphery of mesoscale eddies. Another is symmetric instability initiated by <a href="http://onlinelibrary.wiley.com/doi/10.1029/2010GL044680/abstract">sustained winds and buoyancy fluxes at ocean fronts</a>. Finally, <a href="https://doi.org/10.1017/jfm.2011.345" target="new">increased drag as a result of bottom topography</a> might also explain this.</p>
+  </article>
+
+  <script type="text/javascript">
+$(function() {
+    function slidePanel( newPanel, direction ) {
+        // define the offset of the slider obj, vis a vis the document
+        var offsetLeft = $slider.offset().left;
+
+        // offset required to hide the content off to the left / right
+        var hideLeft = -1 * ( offsetLeft + $slider.width() );
+        var hideRight = $(window).width() - offsetLeft;
+
+        // change the current / next positions based on the direction of the animation
+        if ( direction == 'left' ) {
+            currPos = hideLeft;
+            nextPos = hideRight;
+        }
+        else {
+            currPos = hideRight;
+            nextPos = hideLeft;
+        }
+
+        // slide out the current panel, then remove the active class
+        $slider.children('.slide-panel.active').animate({
+            left: currPos
+        }, 500, function() {
+            $(this).removeClass('active');
+        });
+
+        // slide in the next panel after adding the active class
+        $( $sliderPanels[newPanel] ).css('left', nextPos).addClass('active').animate({
+            left: 0
+        }, 500 );
+    }
+
+    var $slider = $('#full-slider');
+    var $sliderPanels = $slider.children('.slide-panel');
+
+    var $navWrap = $('<div id="full-slider-nav"></div>').appendTo( $slider );
+    var $navLeft = $('<div id="full-slider-nav-left"></div>').appendTo( $navWrap );
+    var $navRight = $('<div id="full-slider-nav-right"></div>').appendTo( $navWrap );
+
+    var currPanel = 0;
+
+    $navLeft.click(function() {
+        currPanel--;
+
+        // check if the new panel value is too small
+        if ( currPanel < 0 ) currPanel = $sliderPanels.length - 1;
+
+        slidePanel(currPanel, 'right');
+    });
+
+    $navRight.click(function() {
+        currPanel++;
+
+        // check if the new panel value is too big
+        if ( currPanel >= $sliderPanels.length ) currPanel = 0;
+
+        slidePanel(currPanel, 'left');
+    });
+});
+  </script>
+
+    <article id="main">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    </article>
+
+    <article id="mainindent1"></article>
+  <footer id="bottom">© Copyright 2020</footer>
+</div>
+
+</body>
+</html>
