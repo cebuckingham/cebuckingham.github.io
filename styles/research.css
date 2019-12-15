@@ -43,12 +43,27 @@ h2 {
 }
 
 h3 {
+	text-align: left;
+	margin-top: 0.5em;
+	color: #000000;
+}
+
+h4 {
+	text-align: center;
 	margin-top: 0.5em;
 	color: #FFFFFF;
 }
 
+#mainalt {
+	width: 95%;
+	margin-left: 2%;
+	float: left;
+	text-align: justify;
+	font-family: source-sans-pro, sans-serif;
+}
+
 #main {
-	width: 70%;
+	width: 53%;
 	margin-left: 2%;
 	float: left;
 	text-align: justify;
@@ -57,11 +72,11 @@ h3 {
 
 #sidebar {
 	font-size: 14px;
-	width: 23%;
+	width: 40%;
 	margin-left: 2%;
 	margin-right: 0%;
 	float: left;
-	text-align: justify;
+	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 }
 
@@ -138,7 +153,7 @@ a:hover, a:active, a:focus {
 }
 
 #mainnav a {
-	width: 20%;
+	width: 25%;
 	display: block;
 	float: left;
 	text-align: center;
@@ -158,4 +173,7 @@ a:hover, a:active, a:focus {
 
 #wrapper #main p {
 	font-family: source-sans-pro, sans-serif;
+}
+.main-bold-font {
+	font-weight: bold;
 }
